@@ -1,6 +1,6 @@
 Package.describe({
   name: 'ramsay:react-components-core',
-  version: '0.0.1',
+  version: '0.0.3',
   // Brief, one-line summary of the package.
   summary: 'Core React components',
   // URL to the Git repository containing the source code for this package.
@@ -14,10 +14,10 @@ Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
 
   var packages = [
-    'ramsay:react-components-nav@0.0.1',
-    'ramsay:react-components-header@0.0.1',
-    'ramsay:react-components-form@0.0.1',
-    'ramsay:react-components-page@0.0.1'
+    'ramsay:react-components-nav@0.0.2',
+    'ramsay:react-components-header@0.0.2',
+    'ramsay:react-components-form@0.0.2',
+    'ramsay:react-components-page@0.0.2'
   ];
 
   api.use(packages, 'client');
